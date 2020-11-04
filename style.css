@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin-right: 122px;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    color: #343E48;
+}
+
+p {
+    color: #6A6F7A;
+}
+
+span {
+    color: #1e1e1e;
+}
+
+a {
+    display: inline-block;
+}

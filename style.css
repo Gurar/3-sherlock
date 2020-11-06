@@ -4,50 +4,61 @@
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #EBECEE;
+    font-family: 'Baloo 2', cursive;
+    background-color: azure;
 }
 
-img {
-   width: 30%;
-   height: auto;
+main {
+    max-width: 960px;
+    margin: 6.246% auto;
 }
 
-div {
-    text-align: center;
-    width: 30%;
-}
+    div {
+        display: inline-block;
+    }
 
-h1 {
-    color: #343E48;
-    font-size: 130px;
-    font-weight: 700;
-    margin-bottom: 36px;
-}
+        img {    
+            display: block;
+            width: 35%; 
+            float: left;
+        }
 
-p {
-    font-size: 30px;
-    color: #687087;
-    margin-bottom: 52px;
-    line-height: 30px;
-}
+        div > div {
+            width: 45%;
+            float: right;
+            text-align: center;
+            padding: 8.55% 0;
+        }
 
-span {
-    font-size: 14px;
-    display: block;
-    color: #1e1e1e;
-    margin-bottom: 14px;
-}
+            h1 {
+                display: inline-block;
+                font-size: 100px;
+                font-weight: 700;
+                color: #363E49;
+            }
 
-a {
-    font-size: 16px;
-    display: inline-block;
-    padding: 23px 21px;
-    background-color: #696D8B;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-}
+            p {
+                display: inline-block;
+                font-size: 24px;
+                font-weight: 600;
+                line-height: 30px;
+                padding: 0 45px;
+                margin-bottom: 30px;
+                color: #686F8B;
+            }
+
+            span {
+                display: block;
+                font-size: 14px;
+                color: #686F8B;
+                margin-bottom: 10px;
+            }
+
+            a {
+                display: inline-block;
+                padding: 10px 23px;
+                background-color: #686F8B;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #fff;
+            }
